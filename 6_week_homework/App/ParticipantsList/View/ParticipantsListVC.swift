@@ -12,7 +12,7 @@ class ParticipantsListVC: UIViewController {
     //MARK: private vars
     private let viewModel: ParticipantsListVM
     private let tableView: UITableView = UITableView(frame: .zero, style: .grouped)
-    private let participantIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
+    private let participantIndicator = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.gray)
     private let refreshControl = UIRefreshControl()
 
     //MARK: inits

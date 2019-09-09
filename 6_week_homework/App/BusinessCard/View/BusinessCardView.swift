@@ -157,7 +157,7 @@ class BusinessCardView: UIScrollView {
     // MARK: views builders
     private func makeLoadingView() -> UIActivityIndicatorView {
         let rVal = UIActivityIndicatorView()
-        rVal.activityIndicatorViewStyle = .gray
+        rVal.style = .gray
         return rVal
     }
 

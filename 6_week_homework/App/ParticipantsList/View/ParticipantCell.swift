@@ -12,7 +12,7 @@ import Kingfisher
 class ParticipantCell: UITableViewCell {
     
     //MARK: inits
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: .subtitle, reuseIdentifier: reuseIdentifier)
     }
     required init?(coder aDecoder: NSCoder) {
@@ -41,11 +41,11 @@ class ParticipantCell: UITableViewCell {
                 $0.value > 0
             }
             .reduce(NSMutableAttributedString()) { accum, current in
-                accum.append(NSAttributedString(string: current.emoji, attributes: [NSAttributedStringKey.font : UIFont.systemFont(ofSize: 24)]))
+                accum.append(NSAttributedString(string: current.emoji, attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 24)]))
                 accum.append(NSAttributedString(string: " \(current.value)   ", attributes: [
-                    NSAttributedStringKey.font : UIFont.systemFont(ofSize: 13),
-                    NSAttributedStringKey.baselineOffset: 2,
-                    NSAttributedStringKey.foregroundColor: UIColor.gray
+                    NSAttributedString.Key.font : UIFont.systemFont(ofSize: 13),
+                    NSAttributedString.Key.baselineOffset: 2,
+                    NSAttributedString.Key.foregroundColor: UIColor.gray
                     ]))
                 return accum
         }
