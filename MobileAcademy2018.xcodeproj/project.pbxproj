@@ -75,7 +75,7 @@
 		1FEDCDEF20962B0900B108F2 /* BusinessCardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardContent.swift; sourceTree = "<group>"; };
 		65BEA3C120642D1200B8A707 /* ParticipantsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsListVC.swift; sourceTree = "<group>"; };
 		65BEA3C52064717300B8A707 /* UIButton+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Action.swift"; sourceTree = "<group>"; };
-		7164CABE20623F87004F0CDA /* 6_week_homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 6_week_homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7164CABE20623F87004F0CDA /* MobileAcademy2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileAcademy2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7164CAC120623F87004F0CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7164CAC320623F87004F0CDA /* BusinessCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardVC.swift; sourceTree = "<group>"; };
 		7164CAC820623F87004F0CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -276,7 +276,7 @@
 		7164CABF20623F87004F0CDA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7164CABE20623F87004F0CDA /* 6_week_homework.app */,
+				7164CABE20623F87004F0CDA /* MobileAcademy2018.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -304,9 +304,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7164CABD20623F87004F0CDA /* 6_week_homework */ = {
+		7164CABD20623F87004F0CDA /* MobileAcademy2018 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7164CAD020623F87004F0CDA /* Build configuration list for PBXNativeTarget "6_week_homework" */;
+			buildConfigurationList = 7164CAD020623F87004F0CDA /* Build configuration list for PBXNativeTarget "MobileAcademy2018" */;
 			buildPhases = (
 				7164CABA20623F87004F0CDA /* Sources */,
 				7164CABB20623F87004F0CDA /* Frameworks */,
@@ -317,9 +317,9 @@
 			);
 			dependencies = (
 			);
-			name = 6_week_homework;
+			name = MobileAcademy2018;
 			productName = firstapp;
-			productReference = 7164CABE20623F87004F0CDA /* 6_week_homework.app */;
+			productReference = 7164CABE20623F87004F0CDA /* MobileAcademy2018.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -338,7 +338,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7164CAB920623F86004F0CDA /* Build configuration list for PBXProject "6_week_homework" */;
+			buildConfigurationList = 7164CAB920623F86004F0CDA /* Build configuration list for PBXProject "MobileAcademy2018" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -351,7 +351,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7164CABD20623F87004F0CDA /* 6_week_homework */,
+				7164CABD20623F87004F0CDA /* MobileAcademy2018 */,
 			);
 		};
 /* End PBXProject section */
@@ -571,7 +571,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7164CAB920623F86004F0CDA /* Build configuration list for PBXProject "6_week_homework" */ = {
+		7164CAB920623F86004F0CDA /* Build configuration list for PBXProject "MobileAcademy2018" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7164CACE20623F87004F0CDA /* Debug */,
@@ -580,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7164CAD020623F87004F0CDA /* Build configuration list for PBXNativeTarget "6_week_homework" */ = {
+		7164CAD020623F87004F0CDA /* Build configuration list for PBXNativeTarget "MobileAcademy2018" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7164CAD120623F87004F0CDA /* Debug */,
